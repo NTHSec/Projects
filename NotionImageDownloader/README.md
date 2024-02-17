@@ -2,6 +2,8 @@
 
 This project provides a solution for downloading images from Notion and saving them to a local directory, along with their corresponding captions. It includes two scripts: one without additional naming features and another with enhanced naming functionality based on the preceding text.
 
+Initially, this was made for personal use to extract images from my notes to use in CTF writeups, but I thought that other people may want this too!
+
 ## Purpose
 
 The purpose of this project is to simplify the process of downloading images and captions from Notion, particularly for users who want to migrate their content to GitHub or other platforms. By automating the image downloading process, users can save time and effort while preserving the structure and context of their content.
