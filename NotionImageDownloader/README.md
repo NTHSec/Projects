@@ -41,11 +41,24 @@ This script extends the functionality of the previous script by including enhanc
 
     ![2024-02-17 17_58_02-SamplePage](https://github.com/NTHSec/Projects/assets/150489159/41231696-302a-4512-8c18-8adf38bcc976)
 
-5. Run the desired script:
+5. Connect your integration to the desired page:
+    - On the top right of your Notion document, select the three dots ••• 
+    - Scroll down to `Add connections`, and use the search bar to find and select the integration from the dropdown list.
+      
+    ![Connection](https://github.com/NTHSec/Projects/assets/150489159/5fb9abde-f0bc-4031-b35e-5e121fed0e69)
+
+    - If you get stuck, look [here!](https://developers.notion.com/docs/authorization#integration-permissions)
+
+6. Run the desired script and follow the prompts.:
 
     ```bash
     python NIDwithoutCaptions.py
     ```
+
+    The ouput should look like:
+
+    ![NIDwithoutcaption](https://github.com/NTHSec/Projects/assets/150489159/7e9438e5-537b-4d59-9224-7059023c75f1)
+
 
     or
 
@@ -53,9 +66,14 @@ This script extends the functionality of the previous script by including enhanc
     python NIDwithCaptions.py
     ```
 
-6. Follow the prompts to authenticate with Notion and specify the directory where you want to save the images.
+    The output should look like:
 
-7. Sit back and relax as the script downloads images from Notion and saves them to the specified directory.
+    ![NIDwithcaption](https://github.com/NTHSec/Projects/assets/150489159/5349fac0-f0d0-4365-b290-39224f14b48c)
+
+
+7. Make sure to copy paste for the prompts! This will allow Notion to authenticate properly and specify the directory where you want to save the images.
+
+8. Sit back and relax as the script downloads images from Notion and saves them to the specified directory.
 
 
 *Note: This code was made using an older version of Notion's API version due to many errors I faced. The script still works as intended, but it is good to keep in mind that if you want to adjust the code you will have to refer to older Notion documentation.*  
