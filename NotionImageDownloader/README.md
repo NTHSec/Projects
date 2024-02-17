@@ -47,3 +47,6 @@ This script extends the functionality of the previous script by including enhanc
 5. Follow the on-screen prompts to authenticate with Notion and specify the directory where you want to save the images.
 
 6. Sit back and relax as the script downloads images from Notion and saves them to the specified directory.
+
+
+*Note: This code was made using an older version of Notion's API version due to many errors I faced. The script still works as intended, but it is good to keep in mind that if you want to adjust the code you will have to refer to older Notion documentation.*  
