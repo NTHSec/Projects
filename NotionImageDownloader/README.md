@@ -12,7 +12,7 @@ The purpose of this project is to simplify the process of downloading images and
 
 ### 1. `NIDwithoutCaptions.py`
 
-This script downloads images from Notion and saves them to a specified directory without any additional naming features. Images are named sequentially based on the index (or position) of the image on the page. The filenames will look like "Image_1.png", "Image_2.png", and so on.
+This script downloads images from Notion and saves them to a specified directory without any additional naming features. Images are named sequentially based on the index (or position) of the image on the page. The filenames will look like "1_Image.png", "2_Image.png", and so on.
 
 ### 2. `NIDwithCaptions.py`
 
