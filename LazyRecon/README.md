@@ -7,7 +7,7 @@ The purpose of LazyRecon is to streamline the process of gathering basic informa
 ## Features
 - Automates Nmap scanning to identify open ports and services.
 - Runs Gobuster to enumerate web directories if ports 80 or 443 are found open.
-- Color-coded output for easy readability.
+- Color-coded output for easy readability (maybe went a little too far with this one 😅!)
 - Option to specify the target IP address as a command-line argument.
 
 ## Quick Start Guide
