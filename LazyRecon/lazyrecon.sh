@@ -41,7 +41,7 @@ run_gobuster() {
 main() {
     run_nmap
     # Check if ports 80 or 443 are found open in the Nmap scan output
-    if grep -qE '80/tcp open|443/tcp open' nmap_scan.txt; then
+    if grep -qE '80/tcp open|443/tcp open|8080/tcp open' nmap_scan.txt; then
         run_gobuster
     else
         echo "${bold}${red}Ports 80 or 443 not found open. Skipping Gobuster scan.${normal}"
